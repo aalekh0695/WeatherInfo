@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_load">96dp</dimen>
+    <dimen name="lv_font_size">24sp</dimen>
+
+</resources>

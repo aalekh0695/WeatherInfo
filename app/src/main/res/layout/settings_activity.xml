@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="24dp"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:background="@android:color/white"
+       android:layout_width="match_parent"
+       android:padding="24dp"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_centerInParent="true"
+       android:layout_height="wrap_content">
+
+       <android.support.design.widget.TextInputEditText
+           android:layout_width="match_parent"
+           android:hint="Current City - Bangalore"
+           android:id="@+id/et_current_city"
+           android:gravity="center"
+           android:padding="16dp"
+           android:layout_height="wrap_content" />
+
+       <android.support.design.widget.TextInputEditText
+           android:layout_width="match_parent"
+           android:hint="No of days - 5"
+           android:id="@+id/et_no_of_days"
+           android:gravity="center"
+           android:padding="16dp"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:text="Update"
+           android:id="@+id/btn_update"
+           android:layout_marginTop="24dp"
+           android:textColor="@android:color/white"
+           android:background="@color/colorPrimary"
+           android:textAllCaps="false"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+</RelativeLayout>

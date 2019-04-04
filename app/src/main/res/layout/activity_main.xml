@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f6f7"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_loading"
+            android:layout_width="@dimen/image_load"
+            android:layout_height="@dimen/image_load"
+            android:src="@drawable/ic_loading"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ll_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tv_weather_state_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weather State"
+                android:textColor="@android:color/black"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/iv_weather_today"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/tv_weather_state_today"
+                android:layout_marginLeft="30dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_weather_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="29.0 C"
+                android:textColor="#2A2A2A"
+                android:textSize="60sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hello World!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp" />
+    </LinearLayout>
+</FrameLayout>
+

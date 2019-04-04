@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d47a1</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="retry_button">#4A4A4A</color>
+    <color name="failure_activity_bg">#e85959</color>
+    <color name="text_color">#2A2A2A</color>
+    e85959
+</resources>
